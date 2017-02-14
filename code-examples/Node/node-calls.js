@@ -9,7 +9,7 @@ var postFields = {
   voice_start: '{"connect":"+461890510"}'
   }
 
-var key = new Buffer(uusername + ':' + password..toString('base64');
+var key = new Buffer(username + ':' + password..toString('base64'));
 var postData = querystring.stringify(postFields);
 
 var options = {
